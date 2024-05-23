@@ -1,11 +1,10 @@
-import { Link } from "expo-router";
-import { StyleSheet, Text, View } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
+import React from "react";
 
-export default function RootLayout() {
+const create = () => {
   return (
     <View style={styles.container}>
-      <Text>main pages</Text>
-      <Link href="/(tabs)/home">Dashboard</Link>
+      <Text>Create</Text>
     </View>
   );
 }
@@ -18,3 +17,4 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
 });
+export default create
