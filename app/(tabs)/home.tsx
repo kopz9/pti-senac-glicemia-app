@@ -44,7 +44,7 @@ const home = () => {
           titleStyle={{ fontWeight: "bold" }}
         />
         <Text style={styles.percentageSecondaryTitle}>
-          *Calculado com base nas meedidas reecentes
+          *Calculado com base nas medidas recentes
         </Text>
       </View>
     </>
