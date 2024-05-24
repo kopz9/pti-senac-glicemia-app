@@ -4,10 +4,10 @@ import React from "react";
 const create = () => {
   return (
     <View style={styles.container}>
-      <Text>Create</Text>
+      <Text>Registrar glicemia</Text>
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -17,4 +17,4 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
 });
-export default create
+export default create;
