@@ -5,6 +5,7 @@ const create = () => {
   const [glucose, setGlucose] = React.useState('');
   const [time, setTime] = React.useState('');
 
+
   return (
     <View style={styles.container}>
       <View style={styles.logoContainer}>
